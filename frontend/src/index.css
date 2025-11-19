@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda:wght@400;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --color-purple-600: #5046e4;            /*background of primary & text of secondary button*/
+    --color-purple-200: #e0e7ff;            /*background of secondary & text of primary button*/
+    --color-gray-200: #f9fbfc;              /*background color of homepage*/
+    --color-gray-700: #383c4c;              /*text color*/
+    --color-gray-100: #ffffff;              /*card & sidebar background*/
+    --font-coda: "Coda", system-ui;         /*font style*/
+}
+
+/* CSS Classes */
+.coda-regular {
+    font-family: "Coda", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
